@@ -1,0 +1,22 @@
+{
+  "name": "romion-cv",
+  "version": "1.0.0",
+  "description": "My CV as a Front-End Developer",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/romion/romion-cv.git"
+  },
+  "keywords": [
+    "cv"
+  ],
+  "author": "Roman Sazhniev <r.sazhnev@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/romion/romion-cv/issues"
+  },
+  "homepage": "https://github.com/romion/romion-cv#readme"
+}
