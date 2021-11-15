@@ -1,9 +1,16 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400&family=Raleway:ital,wght@0,100;0,200;0,400;0,700;1,100;1,200;1,400;1,700&display=swap');
 
-$base-font: 'Roboto';
-$title-padding: 3em;
+$base-font: 'Open Sans', sans-serif;
+
+$base-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+$color-primary: #e9ecef;
+$color-bg-main: #293241;
+$color-active: #ee6c4d;
+$color-advanced: #98c1d9;
+$color-advanced-dark: #3d5a80;
 
 html {
   font-family: $base-font;
-  padding: $title-padding;
+  color: $color-primary;
 }
