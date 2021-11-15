@@ -23,10 +23,10 @@ body {
 }
 
 .qr {
+  display: block;
   position: absolute;
   margin-left: 120px;
   margin-top: 120px;
-  display: block;
   content: '';
   background-color: #fff;
   background-image: url("../assets/images/qr.png");
@@ -40,12 +40,19 @@ body {
   box-shadow: $base-shadow;
 }
 
+.json-info-mobile {
+  display: none;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
 .header {
   display: flex;
   padding: 20px;
 
   &__avatar {
     width: 200px;
+    height: 200px;
     border-radius: 5px;
     margin-right: 40px;
     box-shadow: $base-shadow;
@@ -114,7 +121,7 @@ body {
       flex: 1;
       background-color: $color-bg-main;
       min-height: 200px;
-      box-shadow: $base-shadow;
+      //box-shadow: $base-shadow;
       border-radius: 5px;
       color: $color-primary;
       padding: 20px;
@@ -136,6 +143,12 @@ body {
         margin: 0 20px;
       }
     }
+  }
+}
+
+.soft-skills {
+  &__group {
+    margin-top: 20px;
   }
 }
 
@@ -210,4 +223,29 @@ body {
 
 .margin-top-40 {
   margin-top: 40px;
+}
+
+.btn {
+  margin-left: 20px;
+  background-color: $color-active;
+  border-radius: 5px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  cursor: pointer;
+
+  &__label {
+    color: $color-primary;
+    font-size: 12px;
+    font-weight: 600;
+    margin-left: 10px;
+  }
+
+  &__icon {
+    background: url("../assets/icons/pdf.svg") no-repeat;
+    float: left;
+    width: 20px;
+    height: 20px;
+  }
 }

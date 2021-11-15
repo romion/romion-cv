@@ -1,0 +1,70 @@
+@media screen and (max-width: 600px) {
+  .container {
+    margin: 0 auto;
+  }
+
+  .header {
+    flex-direction: column;
+
+    .json-info {
+      display: none;
+    }
+
+    .json-info-mobile {
+      display: block;
+    }
+
+    &__avatar {
+      width: 100%;
+      height: auto;
+      order: 2;
+    }
+
+    &__profile-info {
+      align-items: center;
+
+      h1 {
+        font-size: 60px;
+        text-align: center;
+        line-height: 1;
+        margin-bottom: 10px;
+      }
+
+      h3 {
+        font-size: 20px;
+        margin-bottom: 10px;
+      }
+    }
+
+    .btn {
+      display: none;
+    }
+  }
+
+  .skills {
+    &__group {
+      flex-direction: column;
+      width: 100%;
+      margin: 0;
+
+      &__item {
+        margin-top: 20px;
+
+        &:nth-child(2) {
+          margin: 20px 0 0;
+        }
+      }
+    }
+  }
+
+  .exp {
+    &__group {
+      flex-direction: column;
+      margin-top: 20px;
+    }
+
+    &__projects {
+      margin-top: 20px;
+    }
+  }
+}
